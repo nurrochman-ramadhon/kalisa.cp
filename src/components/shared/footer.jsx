@@ -5,6 +5,7 @@ import twLogo from "../../../public/assets/footer/Vector twitter.png";
 import youtubeLogo from "../../../public/assets/footer/Vector Youtube.png";
 import phoneLogo from "../../../public/assets/footer/Vector phone.png";
 import Image from "next/image";
+
 const Footer = () => {
   return (
     // Pembungkus Utama
