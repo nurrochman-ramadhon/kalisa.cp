@@ -17,7 +17,7 @@ const Product = () => {
   ];
 
   return (
-    <section>
+    <section className="mb-24">
       <h1 className="text-center m-[30px] font-bold text-3xl lg:text-4xl text-primary1 w-auto flex justify-center relative">
         Produk Kami
         <span className="absolute bottom-[-5px] left-1/2 transform -translate-x-1/2 w-1/12 h-1 bg-primary1 rounded-lg"></span>

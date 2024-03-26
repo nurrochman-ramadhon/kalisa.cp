@@ -51,7 +51,7 @@ const Navbar = () => {
       <div className="h-[89px] flex items-center justify-between w-11/12 mx-auto">
         <Image src={Logo} className="w-[141px] h-[41px]" />
         <div className="flex">
-          <button className="text-primary1 mx-4 font-medium bg-primary3 w-[92px] h-[34px] text-md rounded-lg flex items-center justify-center space-x-2 drop-shadow-2xl hover:bg-white hover:text-black transition-colors duration-300">
+          <button className="lg:hidden text-primary1 mx-4 font-medium bg-primary3 w-[92px] h-[34px] text-md rounded-lg flex items-center justify-center space-x-2 drop-shadow-2xl hover:bg-white hover:text-black transition-colors duration-300">
             <Image src={Icon} width={24} height={24} />
             <span>Login</span>
           </button>
