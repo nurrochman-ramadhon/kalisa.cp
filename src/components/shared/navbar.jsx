@@ -30,7 +30,7 @@ const Navbar = () => {
     const handleScroll = () => {
       const scrollTop =
         window.pageYOffset || document.documentElement.scrollTop;
-      setIsScrolled(scrollTop < 0);
+      setIsScrolled(scrollTop > 0);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -44,15 +44,15 @@ const Navbar = () => {
     <nav
       className={` top-0 left-0 w-full z-10 transition-all duration-300 ${
         isScrolled
-          ? "lg:flex fixed bg-primary1"
-          : "  bg-primary1 lg:bg-primary1 block"
+          ? "lg:flex fixed bg-primary1 bg-opacity-90"
+          : "  bg-primary1 lg:bg-primary1  block"
       }`}
     >
       <div className="h-[89px] flex items-center justify-between w-11/12 mx-auto">
-        <Image src={Logo} className="w-[141px] h-[41px]" />
+        <Image src={Logo} className="w-[141px] h-[41px]" alt="logo" />
         <div className="flex">
           <button className="lg:hidden text-primary1 mx-4 font-medium bg-primary3 w-[92px] h-[34px] text-md rounded-lg flex items-center justify-center space-x-2 drop-shadow-2xl hover:bg-white hover:text-black transition-colors duration-300">
-            <Image src={Icon} width={24} height={24} />
+            <Image src={Icon} width={24} height={24} alt="login" />
             <span>Login</span>
           </button>
           <button
@@ -86,7 +86,7 @@ const Navbar = () => {
             </li>
           ))}
           <button className="text-primary1 mx-4 font-medium bg-primary3 w-[92px] h-[34px] text-md rounded-lg flex items-center justify-center space-x-2 drop-shadow-2xl hover:bg-white hover:text-black transition-colors duration-300">
-            <Image src={Icon} width={24} height={24} />
+            <Image src={Icon} width={24} height={24} alt="icon" />
             <span>Login</span>
           </button>
         </ul>

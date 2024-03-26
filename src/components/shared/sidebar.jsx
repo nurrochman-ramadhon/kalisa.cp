@@ -20,7 +20,7 @@ const Sidebar = (props) => {
       <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 z-50 lg:hidden"></div>
       <div className="fixed top-0 right-0 h-full w-2/4 bg-primary1 p-4 overflow-y-auto lg:hidden z-50">
         <h2 className="text-lg font-bold mb-4 flex justify-between">
-          <Image src={Logo} />
+          <Image src={Logo} alt="logo" />
           <IoClose
             size={36}
             onClick={props.onClick}
