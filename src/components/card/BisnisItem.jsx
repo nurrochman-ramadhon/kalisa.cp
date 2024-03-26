@@ -4,7 +4,7 @@ const BisnisItem = (props) => {
   return (
     <section className="flex flex-col items-center justify-center">
       <div className="relative">
-        <Image src={props.src} className="w-[219px] h-[203px]" />
+        <Image src={props.src} className="w-[219px] h-[203px]" alt="img" />
       </div>
       <h1 className="text-center m-[30px] font-bold text-[24px] text-primary1 w-auto flex justify-center relative">
         {props.subtitle}

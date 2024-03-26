@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Banner from "../../../public/assets/image 6.png";
+import Banner from "../../../public/assets/mario-gogh-VBLHICVh-lI-unsplash.jpg";
 import BisnisItem from "../../components/card/BisnisItem";
 import Ilust1 from "../../../public/assets/undraw_content_team_3epn 1.png";
 import Ilust2 from "../../../public/assets/undraw_mobile_marketing_re_p77p 1.png";
@@ -41,10 +41,9 @@ const BisnisPage = () => {
           src={Banner}
           alt="Banner"
           layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-          className="pointer-events-none"
+          className="pointer-events-none object-cover	object-center	w-auto h-auto"
         />
+
         <div className="absolute inset-0 flex flex-col justify-center items-center w-full">
           <h1 className="text-center font-bold text-[32px] md:text-[48px] text-primary3 relative">
             Peluang Bisnis
@@ -61,7 +60,7 @@ const BisnisPage = () => {
           </button>
         </div>
       </div>
-      <p className="text-center mx-auto w-10/12 lg:w-full my-[46px] font-semibold text-lg text-primary1">
+      <p className="text-center mx-auto  w-10/12 lg:w-full my-[46px] font-semibold text-lg text-primary1">
         PT. Kalisa Sehat Sejahtera bukan sekedar bisnis biasa pada umumnya.
         Dengan produk yang kami ciptakan anda dapat mencapai impian anda menjadi
         sukses dan meningkatkan kesadaran hidup sehat dan sejahtera. Buatlah

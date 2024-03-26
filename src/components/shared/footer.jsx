@@ -22,7 +22,9 @@ const Footer = () => {
             situs ini, kecuali dinyatakan lain, adalah milik PT. Kalisa Sehat
             Sejahtera.
           </p>
-          <p className="leading-[22.96px] text-[14px] mt-[33px]">© Copyright 2022 | PT. Kalisa Sehat Sejahtera</p>
+          <p className="leading-[22.96px] text-[14px] mt-[33px]">
+            © Copyright 2022 | PT. Kalisa Sehat Sejahtera
+          </p>
         </div>
       </div>
 
@@ -31,28 +33,40 @@ const Footer = () => {
       <div className="flex flex-col justify-center">
         {/* Item 1 : sosmed milik Kalisa */}
         <div className="flex gap-[15px] items-center justify-end">
-          <a href=""><Image Image className="w-[24px]" src={fbLogo}/></a>
-          <a href=""><Image Image className="w-[24px]" src={igLogo}/></a>
-          <a href=""><Image Image className="w-[24px]" src={twLogo}/></a>
-          <a href=""><Image className="w-[24px]" src={youtubeLogo}/></a>
+          <a href="">
+            <Image Image className="w-[24px]" src={fbLogo} alt="fb" />
+          </a>
+          <a href="">
+            <Image Image className="w-[24px]" src={igLogo} alt="ig" />
+          </a>
+          <a href="">
+            <Image Image className="w-[24px]" src={twLogo} alt="tw" />
+          </a>
+          <a href="">
+            <Image className="w-[24px]" src={youtubeLogo} alt="yt" />
+          </a>
         </div>
-        
+
         {/* Item 2 : Info */}
         <div className=" text-right mt-[12px] text-[14px]leading-[22.96px]">
           <p>TENTANG KAMI</p>
           <p>KEBIJAKAN PRIVASI</p>
           <p>SYARAT & KETENTUAN</p>
         </div>
-        
+
         {/* Item 3 : no telpon */}
         <div className="flex gap-[7px] mt-[32px] justify-end items-center text-[14px]">
-          <Image className="w-[16px] h-[16px]" src={phoneLogo}/>
+          <Image className="w-[16px] h-[16px]" src={phoneLogo} alt="phone" />
           <p>026-5264-4190</p>
         </div>
 
         {/* Item 4 : alamat kantor */}
         <div className="text-right text-[14px] mt-[8px]">
-          <p className="leading-[16.52px]">Jl. Raya Kalipucang No.232, Kalipucang, <br/>Kec. Kalipucang, Kab. Pangandaran, <br/>Jawa Barat 46397</p>
+          <p className="leading-[16.52px]">
+            Jl. Raya Kalipucang No.232, Kalipucang, <br />
+            Kec. Kalipucang, Kab. Pangandaran, <br />
+            Jawa Barat 46397
+          </p>
         </div>
       </div>
     </div>
