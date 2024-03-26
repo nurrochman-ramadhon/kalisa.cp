@@ -13,12 +13,6 @@ module.exports = {
         primary3: "#FDEFF4",
         primary4: "#F4EEA9",
       },
-      colors: {
-        primary1: "#524A4E",
-        primary2: "#FF5C8D",
-        primary3: "#FDEFF4",
-        primary4: "#F4EEA9",
-      },
     },
   },
   plugins: [],
