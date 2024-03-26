@@ -53,19 +53,21 @@ const Beranda = () => {
         {/* Pembungkus utama */}
         <div className="relative h-screen">
           {/* Image untuk banner utama disini */}
-          <Image
-            src={mainBannerImg}
-            alt="Banner"
-            className="pointer-events-none h-screen object-cover"
-          />
+          <div className="">
+            <Image
+              src={mainBannerImg}
+              alt="Banner"
+              className="pointer-events-none h-screen object-center object-cover md:object-top md:object-cover"
+            />
+          </div>
 
           {/* Tagline dalam banner utama diisi disini */}
-          <div className="absolute inset-0 flex flex-col justify-center w-[559px] pl-[81px]">
-            <p className="text-[48px] text-primary1 text-wrap italic font-semibold">
+          <div className="absolute inset-0 flex flex-col justify-center w-[300px] md:w-[400px] lg:w-[559px] pl-[20px] md:pl-[81px]">
+            <p className="text-[30px] md:text-[48px]  text-primary1 text-wrap italic font-semibold">
               HIDUP LEBIH SEHAT DAN SEJAHTERA
             </p>
-            <div className="w-[320px] border-[2px] border-primary1 mt-[11px]"></div>
-            <p className="text-[24px] text-white mt-[18px] text-wrap pr-20 font-medium">
+            <div className="w-[100px] md:w-[320px] border-[2px] border-primary1 mt-[11px]"></div>
+            <p className="text-[14px] md:text-[24px] text-white mt-[18px] text-wrap pr-20 font-medium">
               Mulailah hari anda dengan perawatan yang sehat dan alami
             </p>
             <button className="mt-[73px] text-[18px] bg-primary2 font-medium text-white w-fit px-8 py-3 rounded-[55px] transition duration-300 ease-in-out hover:bg-pink-600">
@@ -76,8 +78,8 @@ const Beranda = () => {
       </section>
 
       {/* Section 2 : pilihan menu utama */}
-      <section>
-        <div className="mt-[77px] flex px-[100px]">
+      <section className="w-full md:w-[1080px] mx-auto">
+        <div className="mt-[77px] flex flex-col md:flex-row">
           {mainMenu.map((menu, index) => {
             return (
               <MainMenuCard
@@ -91,8 +93,8 @@ const Beranda = () => {
       </section>
 
       {/* Section 3 : slogan perusahaan */}
-      <section>
-        <div className="mt-[70px] px-[100px]">
+      <section className="w-full md:w-[1080px] mx-auto mb-5">
+        <div className="mt-[70px]">
           {slogan.map((slogan, index) => {
             if (index % 2 == 0) {
               return (

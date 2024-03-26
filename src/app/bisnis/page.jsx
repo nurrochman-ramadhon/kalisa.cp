@@ -61,7 +61,7 @@ const BisnisPage = () => {
           </button>
         </div>
       </div>
-      <p className="text-center mx-auto lg:w-[762px] w-10/12 lg:w-full my-[46px] font-semibold text-lg text-primary1">
+      <p className="text-center mx-auto w-10/12 lg:w-full my-[46px] font-semibold text-lg text-primary1">
         PT. Kalisa Sehat Sejahtera bukan sekedar bisnis biasa pada umumnya.
         Dengan produk yang kami ciptakan anda dapat mencapai impian anda menjadi
         sukses dan meningkatkan kesadaran hidup sehat dan sejahtera. Buatlah
