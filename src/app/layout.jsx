@@ -1,6 +1,13 @@
 import Navbar from "../components/shared/navbar";
 import Footer from "../components/shared/footer";
 import "./globals.css";
+import {Poppins} from "next/font/google"
+
+const poppins = Poppins ({
+  weight:["400","500","600"],
+  style:["normal","italic"],
+  subsets:["latin"]
+})
 
 export const metadata = {
   title: "Kalisa",
@@ -12,13 +19,13 @@ export default function RootLayout({ children }) {
     <>
       <html lang="en">
         <head>
-          <link
+          {/* <link
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
             rel="stylesheet"
-          />
+          /> */}
         </head>
         <body>
-          <div>
+          <div className={poppins.className}>
             <Navbar />
             {children}
             <Footer />

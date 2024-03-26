@@ -9,20 +9,20 @@ import Image from "next/image";
 const Footer = () => {
   return (
     // Pembungkus Utama
-    <div className="h-[323px] bg-primary1 pt-[47px] px-[100px] flex justify-between text-white">
+    <div className="h-[323px] bg-primary1 pt-[47px] px-[100px] flex justify-between text-white font-medium">
       {/* FOOTER sisi Kiri */}
       {/* Berisi logo Kalisa dan keterangan copyright */}
       <div className="w-[788px]">
         <div className="Kalisa-logo-footer text-white">
           <Image src={kalisaLogo} alt="Kalisa Logo" />
-          <p className=" text-[14px] mt-[20px] w-[593px]">
+          <p className="leading-[22.96px] text-[14px] mt-[20px] w-[593px]">
             © PT. Kalisa Sehat Sejahtera. Tidak ada produksi ulang secara
             keseluruhan atau sebagian tanpa izin tertulis. All Rights Reserved.
             Semua merek dagang dan perdagangan pakaian yang dipamerkan dalam
             situs ini, kecuali dinyatakan lain, adalah milik PT. Kalisa Sehat
             Sejahtera.
           </p>
-          <p className=" text-[14px] mt-[33px]">© Copyright 2022 | PT. Kalisa Sehat Sejahtera</p>
+          <p className="leading-[22.96px] text-[14px] mt-[33px]">© Copyright 2022 | PT. Kalisa Sehat Sejahtera</p>
         </div>
       </div>
 
@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
         
         {/* Item 2 : Info */}
-        <div className=" text-right mt-[15.29px] text-[14px]">
+        <div className=" text-right mt-[12px] text-[14px]leading-[22.96px]">
           <p>TENTANG KAMI</p>
           <p>KEBIJAKAN PRIVASI</p>
           <p>SYARAT & KETENTUAN</p>
@@ -52,7 +52,7 @@ const Footer = () => {
 
         {/* Item 4 : alamat kantor */}
         <div className="text-right text-[14px] mt-[8px]">
-          <p>Jl. Raya Kalipucang No.232, Kalipucang, <br/>Kec. Kalipucang, Kab. Pangandaran, <br/>Jawa Barat 46397</p>
+          <p className="leading-[16.52px]">Jl. Raya Kalipucang No.232, Kalipucang, <br/>Kec. Kalipucang, Kab. Pangandaran, <br/>Jawa Barat 46397</p>
         </div>
       </div>
     </div>
