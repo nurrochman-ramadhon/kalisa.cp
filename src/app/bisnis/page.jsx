@@ -46,11 +46,11 @@ const BisnisPage = () => {
           className="pointer-events-none"
         />
         <div className="absolute inset-0 flex flex-col justify-center items-center w-full">
-          <h1 className="text-center font-bold text-[48px] text-primary3 relative">
+          <h1 className="text-center font-bold text-[32px] md:text-[48px] text-primary3 relative">
             Peluang Bisnis
             <span className="absolute bottom-[-5px] left-1/2 transform -translate-x-1/2 w-8/12 h-1 bg-primary3 rounded-lg"></span>
           </h1>
-          <p className="text-primary3 font-semibold text-lg text-center max-w-[850px] px-4 my-4">
+          <p className="text-primary3 font-semibold text-md md:text-lg text-center max-w-[850px] px-4 my-4">
             Kami membuka suatu peluang bisnis untuk pelanggan kami dengan
             fleksibel dari PT. Kalisa Sehat Sejahtera. Bergabung dan buatlah
             suatu jaringan bisnis yang menyenangkan dengan berbagai macam paket
@@ -61,7 +61,7 @@ const BisnisPage = () => {
           </button>
         </div>
       </div>
-      <p className="text-center mx-auto w-[762px] my-[46px] font-semibold text-lg text-primary1">
+      <p className="text-center mx-auto lg:w-[762px] w-10/12 lg:w-full my-[46px] font-semibold text-lg text-primary1">
         PT. Kalisa Sehat Sejahtera bukan sekedar bisnis biasa pada umumnya.
         Dengan produk yang kami ciptakan anda dapat mencapai impian anda menjadi
         sukses dan meningkatkan kesadaran hidup sehat dan sejahtera. Buatlah

@@ -18,15 +18,15 @@ const Product = () => {
 
   return (
     <section>
-      <h1 className="text-center m-[30px] font-bold text-4xl text-primary1 w-full flex justify-center relative">
+      <h1 className="text-center m-[30px] font-bold text-3xl lg:text-4xl text-primary1 w-auto flex justify-center relative">
         Produk Kami
         <span className="absolute bottom-[-5px] left-1/2 transform -translate-x-1/2 w-1/12 h-1 bg-primary1 rounded-lg"></span>
       </h1>
-      <p className="text-center text-[18px] font-medium text-primary1 w-1/2 mx-auto">
+      <p className="text-center text-[14px] lg:text-[18px] font-medium text-primary1 w-10/12 lg:w-1/2 mx-auto">
         Dengan hasil riset yang dikembangkan sampai saat ini terciptalah produk
         dengan standar kualitas tinggi dan diuji dengan basis ilmu pengetahuan.
       </p>
-      <div className="grid grid-cols-3 gap-4 mt-[53px] justify-center w-8/12 mx-auto">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-4 lg:mt-[53px] justify-center w-8/12 mx-auto">
         {products.map((product, index) => (
           <ProductCard
             key={index}
