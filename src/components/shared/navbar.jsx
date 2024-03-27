@@ -12,7 +12,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const menuItems = [
-    { text: "Beranda", path: "/beranda" },
+    { text: "Beranda", path: "/" },
     { text: "Tentang Kami", path: "/about" },
     { text: "Produk", path: "/product" },
     { text: "Peluang Bisnis", path: "/bisnis" },
@@ -75,7 +75,7 @@ const Navbar = () => {
               <Link href={item.path}>
                 <h1
                   className={`${
-                    pathName.includes(item.path)
+                    pathName === item.path
                       ? "border-b-2 border-primary3 font-bold animate-fade-in"
                       : "hover:text-white text"
                   }`}
