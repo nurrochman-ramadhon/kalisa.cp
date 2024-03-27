@@ -81,6 +81,7 @@ const About = () => {
       {aboutContent.map((aboutContent, index) => {
         return (
           <AboutUsCard
+            key={index}
             title={aboutContent.title}
             description={aboutContent.description}
             content={aboutContent.content}
